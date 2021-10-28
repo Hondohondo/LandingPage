@@ -1,0 +1,187 @@
+/*SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128*/
+
+
+//GAP - As used in Flexbox and Grid Layout
+
+.gap-0 { gap: 0; }
+.gap-2 { gap: .2rem; }
+.gap-4 { gap: .4rem;}
+.gap-8 { gap: .8rem; }
+.gap-12 { gap: 1.2rem; }
+.gap-16 { gap: 1.6rem; }
+.gap-24 { gap: 2.4rem; }
+.gap-32 { gap: 3.2rem; }
+.gap-48 { gap: 4.8rem; }
+.gap-64 { gap: 6.4rem; }
+.gap-80 { gap: 8.0rem; }
+.gap-96 { gap: 9.6rem; }
+
+/*
+\\mg margin This apply to all sides top, bottom, right and left
+*/
+
+.mg-0 { margin: 0; }
+.mg-2 { margin: .2rem; }
+.mg-4 { margin: .4rem;}
+.mg-8 { margin: .8rem; }
+.mg-12 { margin: 1.2rem; }
+.mg-16 { margin: 1.6rem; }
+.mg-24 { margin: 2.4rem; }
+.mg-32 { margin: 3.2rem; }
+.mg-48 { margin: 4.8rem; }
+.mg-64 { margin: 6.4rem; }
+.mg-80 { margin: 8.0rem; }
+.mg-96 { margin: 9.6rem; }
+
+
+\\mg-rt margin-right
+
+.mg-rt-0 { margin-right: 0; }
+.mg-rt-2 { margin-right: .2rem; }
+.mg-rt-4 { margin-right: .4rem; }
+.mg-rt-8 { margin-right: .8rem; }
+.mg-rt-12 { margin-right: 1.2rem; }
+.mg-rt-16 { margin-right: 1.6rem; }
+.mg-rt-24 { margin-right: 2.4rem; }
+.mg-rt-32 { margin-right: 3.2rem; }
+.mg-rt-48 { margin-right: 4.8rem; }
+.mg-rt-64 { margin-right: 6.4rem; }
+.mg-rt-80 { margin-right: 8.0rem; }
+.mg-rt-96 { margin-right: 9.6rem; }
+
+
+\\mg-lt margin-left
+
+.mg-lt-0 { margin-left: 0; }
+.mg-lt-2 { margin-left: .2rem; }
+.mg-lt-4 { margin-left: .4rem; }
+.mg-lt-8 { margin-left: .8rem; }
+.mg-lt-12 { margin-left: 1.2rem; }
+.mg-lt-16 { margin-left: 1.6rem; }
+.mg-lt-24 { margin-left: 2.4rem; }
+.mg-lt-32 { margin-left: 3.2rem; }
+.mg-lt-48 { margin-left: 4.8rem; }
+.mg-lt-64 { margin-left: 6.4rem; }
+.mg-lt-80 { margin-left: 8.0rem; }
+.mg-lt-96 { margin-left: 9.6rem; }
+
+
+\\mg-tp margin-top
+
+          .mg-tp-0 { margin-top: 0; }
+.mg-tp-2 { margin-top: .2rem; }
+.mg-tp-4 { margin-top: .4rem; }
+.mg-tp-8 { margin-top: .8rem; }
+.mg-tp-12 { margin-top: 1.2rem; }
+.mg-tp-16 { margin-top: 1.6rem; }
+.mg-tp-24 { margin-top: 2.4rem; }
+.mg-tp-32 { margin-top: 3.2rem; }
+.mg-tp-48 { margin-top: 4.8rem; }
+.mg-tp-64 { margin-top: 6.4rem; }
+.mg-tp-80 { margin-top: 8.0rem; }
+.mg-tp-96 { margin-top: 9.6rem; }
+
+
+
+\\mg-bm margin-bottom
+
+.mg-bm-0 { margin-bottom: 0; }
+.mg-bm-2 { margin-bottom: .2rem; }
+.mg-bm-4 { margin-bottom: .4rem; }
+.mg-bm-8 { margin-bottom: .8rem; }
+.mg-bm-12 { margin-bottom: 1.2rem; }
+.mg-bm-16 { margin-bottom: 1.6rem; }
+.mg-bm-24 { margin-bottom: 2.4rem; }
+.mg-bm-32 { margin-bottom: 3.2rem; }
+.mg-bm-48 { margin-bottom: 4.8rem; }
+.mg-bm-64 { margin-bottom: 6.4rem; }
+.mg-bm-80 { margin-bottom: 8.0rem; }
+.mg-bm-96 { margin-bottom: 9.6rem; }
+
+
+/*
+\\pd padding This applies to all sides top, bottom, right and left
+*/
+
+.pd-0 { padding: 0; }
+.pd-2 { padding: .2rem; }
+.pd-4 { padding: .4rem;}
+.pd-8 { padding: .8rem; }
+.pd-12 { padding: 1.2rem; }
+.pd-16 { padding: 1.6rem; }
+.pd-24 { padding: 2.4rem; }
+.pd-32 { padding: 3.2rem; }
+.pd-48 { padding: 4.8rem; }
+.pd-64 { padding: 6.4rem; }
+.pd-80 { padding: 8.0rem; }
+.pd-96 { padding: 9.6rem; }
+
+
+\\pd-rt padding-right
+
+
+.pd-rt-0 { padding-right: 0; }
+.pd-rt-2 { padding-right: .2rem; }
+.pd-rt-4 { padding-right: .4rem; }
+.pd-rt-8 { padding-right: .8rem; }
+.pd-rt-12 { padding-right: 1.2rem; }
+.pd-rt-16 { padding-right: 1.6rem; }
+.pd-rt-24 { padding-right: 2.4rem; }
+.pd-rt-32 { padding-right: 3.2rem; }
+.pd-rt-48 { padding-right: 4.8rem; }
+.pd-rt-64 { padding-right: 6.4rem; }
+.pd-rt-80 { padding-right: 8.0rem; }
+.pd-rt-96 { padding-right: 9.6rem; }
+
+
+\\pd-lt padding-left
+
+
+.pd-lt-0 { padding-left: 0; }
+.pd-lt-2 { padding-left: .2rem; }
+.pd-lt-4 { padding-left: .4rem; }
+.pd-lt-8 { padding-left: .8rem; }
+.pd-lt-12 { padding-left: 1.2rem; }
+.pd-lt-16 { padding-left: 1.6rem; }
+.pd-lt-24 { padding-left: 2.4rem; }
+.pd-lt-32 { padding-left: 3.2rem; }
+.pd-lt-48 { padding-left: 4.8rem; }
+.pd-lt-64 { padding-left: 6.4rem; }
+.pd-lt-80 { padding-left: 8.0rem; }
+.pd-lt-96 { padding-left: 9.6rem; }
+
+
+
+\\pd-tp padding-top
+
+
+.pd-tp-0 { padding-top: 0; }
+.pd-tp-2 { padding-top: .2rem; }
+.pd-tp-4 { padding-top: .4rem; }
+.pd-tp-8 { padding-top: .8rem; }
+.pd-tp-12 { padding-top: 1.2rem; }
+.pd-tp-16 { padding-top: 1.6rem; }
+.pd-tp-24 { padding-top: 2.4rem; }
+.pd-tp-32 { padding-top: 3.2rem; }
+.pd-tp-48 { padding-top: 4.8rem; }
+.pd-tp-64 { padding-top: 6.4rem; }
+.pd-tp-80 { padding-top: 8.0rem; }
+.pd-tp-96 { padding-top: 9.6rem; }
+
+
+\\pd-bm padding-bottom
+
+
+.pd-bm-0 { padding-bottom: 0; }
+.pd-bm-2 { padding-bottom: .2rem; }
+.pd-bm-4 { padding-bottom: .4rem; }
+.pd-bm-8 { padding-bottom: .8rem; }
+.pd-bm-12 { padding-bottom: 1.2rem; }
+.pd-bm-16 { padding-bottom: 1.6rem; }
+.pd-bm-24 { padding-bottom: 2.4rem; }
+.pd-bm-32 { padding-bottom: 3.2rem; }
+.pd-bm-48 { padding-bottom: 4.8rem; }
+.pd-bm-64 { padding-bottom: 6.4rem; }
+.pd-bm-80 { padding-bottom: 8.0rem; }
+.pd-bm-96 { padding-bottom: 9.6rem; }

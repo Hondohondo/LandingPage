@@ -1,0 +1,172 @@
+
+//Layouts
+
+//Positions
+.pos-relative {
+  position: relative;
+}
+
+//Displays
+
+.display-block { display: block;}
+.display-i-block {display: inline-block;}
+
+
+
+//Grids
+/*
+.grid {
+  display: grid;
+  gap: 9.6rem; //applies both to row and column
+}*/
+
+.display-grid {
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr); //same as writing - 1fr 1fr
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+//Grid Center
+.grid-center-v { align-items: center}
+.grid-self-center { align-self: center}
+
+//FLEX
+.display-flex { display: flex}
+
+.flex-space-between {justify-content: space-between;}
+.flex-space-around { justify-content: space-around; }
+
+//FLEX ORDER
+.flex-order-0 { order: 0}
+.flex-order-1 { order: 1}
+.flex-order-neg-1 { order: -1}
+
+//FLEX-DIRECTION
+.flex-col { flex-direction: column}
+
+//FLEX WIDTH
+//A column (flex item) with 50% width
+.flex-75p { flex-basis: 75% }
+.flex-70p { flex-basis: 70% }
+.flex-65p { flex-basis: 65% }
+.flex-60p { flex-basis: 60% }
+.flex-50p { flex-basis: 50% }
+.flex-40p { flex-basis: 40% }
+.flex-35p { flex-basis: 35% }
+.flex-30p { flex-basis: 30% }
+.flex-25p { flex-basis: 25% }
+.flex-20p { flex-basis: 20% }
+.flex-10p { flex-basis: 10% }
+
+//FLEX CENTER
+.flex-center-v { align-items: center}
+.flex-center-h { justify-content: center}
+.display-flex-center-both {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+// Flex Width ( Basis | Shrink | Grow):
+// A flex-item is forced to grow to fill up the remaining width
+.flex-g { flex-grow: 1 }
+.flex-g-2 {flex-grow: 2 } /*will occupy double the space*/
+.flex-g-3 {flex-grow: 3 } /*will occupy three times the space*/
+
+// A flex-item is forced not to shrink
+.flex-ns { flex-shrink: 0 }
+
+//Width wdp-width-percentage
+.wd-100p { width: 100%}
+.wd-90p { width: 90%}
+.wd-80p { width: 80%}
+.wd-70p { width: 70%}
+.wd-60p { width: 60%}
+.wd-50p { width: 50%}
+.wd-40p { width: 40%}
+.wd-35p { width: 35%}
+.wd-30p { width: 30%}
+
+//Width - Dimensions
+.wd-0 { width: 0; }
+.wd-2 { width: .2rem; }
+.wd-4 { width: .4rem;}
+.wd-8 { width: .8rem; }
+.wd-12 { width: 1.2rem; }
+.wd-16 { width: 1.6rem; }
+.wd-24 { width: 2.4rem; }
+.wd-32 { width: 3.2rem; }
+.wd-48 { width: 4.8rem; }
+.wd-64 { width: 6.4rem; }
+.wd-80 { width: 8.0rem; }
+.wd-96 { width: 9.6rem; }
+
+//Width >100
+.wd-120 { width: 12rem; }
+.wd-160 { width: 16rem; }
+.wd-240 { width: 24rem; }
+.wd-320 { width: 32rem; }
+.wd-480 { width: 48rem; }
+.wd-640 { width: 64rem; }
+.wd-700 { width: 70rem; }
+.wd-800 { width: 80rem; }
+.wd-900 { width: 90rem; }
+.wd-960 { width: 96rem; }
+
+//Max-Width >100
+.mx-wd-120 { max-width: 12rem; }
+.mx-wd-160 { max-width: 16rem; }
+.mx-wd-240 { max-width: 24rem; }
+.mx-wd-320 { max-width: 32rem; }
+.mx-wd-480 { max-width: 48rem; }
+.mx-wd-640 { max-width: 64rem; }
+.mx-wd-700 { max-width: 70rem; }
+.mx-wd-800 { max-width: 80rem; }
+.mx-wd-900 { max-width: 90rem; }
+.mx-wd-960 { max-width: 96rem; }
+
+//Alignment
+.mg-center { margin: 0 auto;}
+
+
+//Height - Dimensions
+.ht-0 { height: 0; }
+.ht-2 { height: .2rem; }
+.ht-4 { height: .4rem;}
+.ht-8 { height: .8rem; }
+.ht-12 { height: 1.2rem; }
+.ht-16 { height: 1.6rem; }
+.ht-24 { height: 2.4rem; }
+.ht-32 { height: 3.2rem; }
+.ht-48 { height: 4.8rem; }
+.ht-64 { height: 6.4rem; }
+.ht-80 { height: 8.0rem; }
+.ht-96 { height: 9.6rem; }
+
+//Heiht >100
+.ht-120 { height: 12rem; }
+.ht-160 { height: 16rem; }
+.ht-240 { height: 24rem; }
+.ht-320 { height: 32rem; }
+.ht-480 { height: 48rem; }
+.ht-640 { height: 64rem; }
+.ht-700 { height: 70rem; }
+.ht-800 { height: 80rem; }
+.ht-900 { height: 90rem; }
+.ht-960 { height: 96rem; }

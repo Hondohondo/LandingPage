@@ -1,0 +1,251 @@
+/*Rem and Em do not depend on HTML font-size in media queries Instead we assume that 1rem = 1em = 16px*/
+
+/*******************************/
+/**BELOW 1344px (Smaller Desktops)**/
+/*******************************/
+@media (max-width: 84em) { /*1350/16 = 84.375*/
+    .hero {
+        /*kinda same as saying width: 100%*/
+        max-width: 120rem;
+    }
+
+    .hero-2 {
+        max-width: 120rem;
+    }
+
+}
+
+
+
+/*******************************/
+/**BELOW 1200px (Landscape Tablets: (from Big Tablets of width 961px to 1200px): Width smaller than the 1200px container**/
+/*******************************/
+@media (max-width: 75em) {    /*1200/16 = 75*/
+/*    9px/16px = 56.25% */
+   html {
+       font-size: 56.25%;
+   }
+
+    .grid {
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .para {
+        font-size: 2.4rem;
+    }
+
+    .para-2 {
+        font-size: 2.4rem;
+
+    }
+
+    .para-3 {
+        font-size: 2.4rem;
+    }
+
+    .bullets {
+        font-size: 2.0rem;
+    }
+
+    .hero-img {
+        width: 20rem;
+    }
+
+    .heading-two {
+        font-size: 3.6rem;
+    }
+
+    .heading-3 {
+        /*font-size: 2.4rem; -- initially 3rem*/
+    }
+
+    .header {
+        /*padding: 0 3.2rem -- originally 0 4.8rem;*/
+    }
+
+    .hero {
+        gap: 3.2rem;
+    }
+
+    .hero-2 {
+        gap: 3.2rem;
+    }
+
+    .jung-img {
+        width: 20rem;
+    }
+
+
+    .book-img {
+       /* position: absolute;
+        top: 25%;
+        left: 95%;*/
+    }
+
+}
+
+
+/*******************************/
+/**BELOW 960px (Tablets (small tablets to big tablets): from 705px to 960px**/
+/*256px difference with the lower breakpoint of 704px*/
+/*******************************/
+@media (max-width: 60em) {
+/*    At this width we make 1rem is 8px 8px/16px = 0.5 = 50%*/
+    html {
+        font-size: 50%;
+    }
+
+    .hero {
+        /*display: block;*/
+        padding: 0 8rem;
+        flex-direction: column-reverse;
+    }
+
+    .hero-2 {
+        /*flex-direction: column-reverse;*/
+        flex-direction: column;
+        padding: 0 8rem;
+    }
+
+    .hero-text-box, .hero-image-box {
+        text-align: center;
+    }
+
+    .content-box {
+        max-width: 80rem;
+    }
+
+    .img-ira-2 {
+        flex-basis: 25%;
+        background-position: center;
+    }
+
+    .text-box-2 {
+        flex-basis: 75%;
+    }
+
+
+
+    .hero-img {
+        width: 20rem;
+    }
+
+    .jung-img {
+        /*  position: absolute;
+          top: 25%;
+          left: 95%;*/
+        /*width: 24rem;*/
+        top: 90%;
+        left: 70%;
+        border-radius: 50%;
+        width: 20rem;
+    }
+
+    .book-img {
+       /* top: 80%;
+        left: 75%;*/
+        /*border-radius: 50%;*/
+        width: 12rem;
+        top: 35%;
+        left: -12%;
+    }
+
+}
+
+
+/*******************************/
+/**BELOW 704px (Small Tablets and phones from 545px to 704px)**/
+/*160px difference with the lower break-point of 544px*/
+/*******************************/
+
+@media (max-width: 44em) { /*700px/16 = 43.75*/
+
+    .hero {
+        padding: 0 3.2rem;
+    }
+    .hero-2 {
+        padding: 0 3.2rem;
+    }
+
+    .heading-two {
+        /*margin-bottom: 4.8rem !* originally 4.8*!;*/
+        font-size: 3rem;
+    }
+
+    .ira-photo {
+        height: 20rem;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3b,
+    .img-4,
+    .img-5
+    {
+        flex-basis: 20%;
+    }
+
+    .text-box {
+        flex-basis: 80%;
+    }
+
+    .jung-container {
+        max-width: 80rem;
+    }
+
+    .book-img {
+        display: none;
+    }
+
+    .jung-img {
+        display: none;
+    }
+
+    .jung-header {
+        max-width: 80rem;
+    }
+
+    .jung-para {
+        font-size: 2.2rem;
+    }
+
+    .quot {
+        left: -3rem;
+    }
+
+
+}
+
+/*******************************/
+/**BELOW 544px (Phones and Small Phones from 0 to 544px)**/
+/*******************************/
+@media (max-width: 34em) {  /*550px/16 = 34.375*/
+    .ira-photo {
+        height: 16rem;
+    }
+
+    .form {
+        max-width: 56rem;
+    }
+
+    .form-group {
+        margin-bottom: 1.2rem;
+    }
+
+    .hero {
+        padding: 0 1.6rem;
+    }
+    .hero-2 {
+        padding: 0 1.6rem;
+    }
+
+    .bullet-1 {
+        flex-basis: 50%;
+    }
+
+}

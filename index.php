@@ -683,8 +683,25 @@
                                 Journal</em> program: <em>At a Journal Workshop</em> (Rev. Ed 1992)</span>
                         </p>
                 </div>
-                <div class="form wd-640 mg-center mg-bm-32">
-                    <form action="#" class="signup-form">
+                <div id="form" class="form wd-640 mg-center mg-bm-32">
+                    <form action="mailer.php" class="signup-form">
+                       <!-- <div class="form-messages success">
+                            Thank you! Your have been added to the list.
+                        </div>
+                        <div class="form-messages error">
+                            Thank you! Your have been added to the list.
+                        </div>-->
+                        <?php
+                        if($_GET['success'] == 1) {
+                            echo " <div class=\"form-messages green-success\"> Thank you! Your have been added to the list.</div>";
+                        }
+                         if($_GET['success'] == -1) {
+                            echo " <div class=\"form-messages red-error\"> Oops! Something went wrong. Please try again.</div>";
+                        }
+                        ?>
+
+
+
                         <div class="form-group display-flex flex-space-around flex-center-v mg-bm-8">
                             <label for="name" class="font-size-18 font-weight-500 flex-30p white">Name:</label>
                             <input type="text" name="name" id="name" placeholder="Your name" required class="font-size-18 flex-60p cyan-09 pd-tp-8 pd-bm-8 pd-lt-16 pd-rt-16">

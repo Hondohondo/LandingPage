@@ -2268,6 +2268,34 @@ input[type=submit]:hover {
   color: #0b7285;
 }
 
+.form-messages {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 90%;
+  margin: 0 auto 3rem auto;
+  padding: 1.6rem 3.2rem;
+  border-radius: 3px;
+}
+
+.success {
+  background-color: #2b8a3e;
+}
+
+.green-success {
+  background-color: white;
+  color: #2b8a3e;
+}
+
+.red-error {
+  background-color: white;
+  color: #c92a2a;
+}
+
+.error {
+  background-color: #c92a2a;
+}
+
 .img-box {
   /*width: 32rem;
   height: 100%;
